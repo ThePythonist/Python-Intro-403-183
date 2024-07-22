@@ -1,2 +1,2 @@
-sen = input("enter your age :")
-print(sen)
+word = "python"
+print(word[::-1]) # taeen step
