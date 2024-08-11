@@ -1,4 +1,7 @@
-numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-for i in numbers:
-    for j in i:
-        print(j, end=" ")  # ta nare be khate baad
+x = input("Entry : ")
+
+try:
+    x = float(x)
+    print("Entry is a number")
+except ValueError:
+    print("Entry is not a number")
