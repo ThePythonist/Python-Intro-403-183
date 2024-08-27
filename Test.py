@@ -1,7 +1,10 @@
-x = input("Entry : ")
+x = 10  # global variable
 
-try:
-    x = float(x)
-    print("Entry is a number")
-except ValueError:
-    print("Entry is not a number")
+
+def func():
+    y = 20  # local variable
+    print(x)
+    print(y)
+
+
+func()
