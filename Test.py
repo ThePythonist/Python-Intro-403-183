@@ -1,10 +1,10 @@
-x = 10  # global variable
+scores = {
+    "mabani computer": (20, 3),
+    "zaban omomi": (17, 2),
+    "varzesh": (15, 1),
+    "riazi omomi 1": (7, 3),
+    "andishe eslami 1": (14, 2)
+}
 
-
-def func():
-    y = 20  # local variable
-    print(x)
-    print(y)
-
-
-func()
+# جمع نمرات با احتساب ضریب تقسیم بر جمع ضرایب
+print((20 * 3 + 17 * 2 + 15 * 1 + 7 * 3 + 14 * 2) / (3 + 2 + 1 + 3 + 2))
