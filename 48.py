@@ -9,8 +9,8 @@
 # make_dict1("python")
 
 def make_dict2(word):
-    characters = word
-    indexes = range(len(word))
+    characters = word # p y t h o n
+    indexes = range(len(word)) # 0 1 2 3 4 5
     print(dict(zip(indexes, characters)))
 
 
